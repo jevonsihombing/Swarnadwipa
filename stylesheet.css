@@ -1,0 +1,331 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+    padding-top: 0 ;
+    font-family: "Avenir Next";
+    font-weight: normal;
+    max-width: 100% !important;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    display: flex;
+}
+header{
+    position: absolute;
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+header .logo-kanan ul li a{
+    display: block;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.logo{
+    float: left;
+    position: absolute;
+}
+.logo-kiri img{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 60px;
+}
+.logo-kiri h1{
+    padding-left: 20px;
+    margin-top: 30px;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+}
+.logo-kanan{
+    float: right;
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: red;
+}
+li .dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    padding: 10px 16px;
+    position: absolute;
+    min-width: 16px;
+    top: 50px;
+    background: rgba(0, 0, 0,.8);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+h2{
+    text-align: justify;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+.persyaratan h3{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.persyaratan p{
+    text-align: justify;
+    line-height: 35px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 110px;
+    background-color: yellow;
+}
+.footers{
+    width: 100%;
+    height: 200px;
+    margin-top: 220px;
+    background-color: yellow;
+}
+.logo h2{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.tulisan-kanan{
+    margin-left: 550px;
+    margin-top: -145px;
+}
+.footer-bawah{
+    background-color: rgb(144, 161, 19);
+    width: 100%;
+}
+.footer-bawah h1{
+    font-size: 22px;
+    text-align: center;
+}
+.wrapper{
+    width:100%;
+    padding: 20px;
+}
+.sliders{
+    width: 100%;
+    height: 100vh;
+}
+.sliders img{
+    margin-top: 2px;
+    margin-left: 320px;
+    text-align: center;
+    width: 50%;
+    height: 110vh;
+}
+.slider p{
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+}
+.tentang-kami{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: black
+}
+.tentang-kami h1{
+    margin-left: 5px;
+    font-size: 32px ;
+}
+.tentang-kami h2{
+    margin-top: 20px ;
+    margin-left:5px ;
+    font-size: 22px ;
+}
+.tentang-kami p{
+    line-height: 30px;
+    margin-top: 20px ;
+    margin-left:5px ;
+    font-size: 15px ;
+}
+.gbr-sejarah{
+    width: 25%;
+    float: right;
+    margin-top: -100px;
+    margin-right: 20px;
+}
+.artikel{
+    margin-top: 300px;
+    margin-left:20px ;
+    width: 97%;
+    margin-right:20px ;
+    background-color: rgb(57, 57, 176);
+}
+.artikels h1{
+    color: white;
+    font-size: 32px ;
+    margin-left: 10px;
+}
+.artikels h2{
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 10px ;
+}
+.biaya{
+    margin-top: 100px;
+}
+.beasiswa{
+    margin-top: 110px;
+}
+.beasiswas h1{
+    line-height: 31px;
+    margin-left: 12px;
+}
+.beasiswas p{
+    margin-left:12px ;
+}
+.history{
+    font-size: 25px ;
+    margin-top: 100px;
+}
+.historys h1{
+    margin-left: 20px;
+}
+.historys h2{
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top:-20px ;
+}
+.historys p{
+    text-align: justify;
+    line-height: 30px;
+}
+.biayakuliah{
+    margin-top: 100px;
+}
+.rinciankuliah h1{
+    font-size: 32px;
+    margin-left: 20px;
+}
+.rinciankuliah p{
+    font-size: 22px ;
+}
+.biayakuliah .table{
+    margin-left: 20px;
+}
+.table{
+    margin-left: 20px;
+    width: 50%;
+    border-collapse: collapse;
+    margin: 8px;
+}
+.rincian p{
+    padding: 20px;
+    line-height: 30px;
+    margin: 20px;
+}
+.table th,
+.table td{
+    border: 3px solid #ddd;
+    padding: 10px;
+}
+.table td:first-child{
+    width: 50px;
+    text-align: center;
+}
+.table td:last-child{
+    width: 200px;
+    text-align: center;
+}
+.info h1{
+    margin-left: 20px;
+    font-size: 32px;
+    margin-top: 110px;
+}
+.info h2{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.info p{
+    font-size: 22px ;
+    margin-left: 20px;
+    line-height: 25px;
+}
+.info img{
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 20px ;
+}
+button{
+    font-size: 15px;
+    color: black;
+    background-color: yellow;
+    padding: 20px 20px;
+    border-radius: 40px solid black;
+}
+.nilai h3,p{
+    text-align: justify;
+    margin-left: 20px;
+}
+.nilai h3{
+    font-size: 22px;
+}
+.nilai p{
+    font-size: 20px;
+}
+.visi h3,p{
+    text-align: justify;
+    margin-left: 20px;
+}
+.visi h3{
+    text-align: justify;
+    font-size: 22px;
+}
+.visi p{
+    font-size: 20px;
+}
+.biaya h1{
+    margin-left: 40px;
+}
+#check,.btn{
+    display: none;
+}

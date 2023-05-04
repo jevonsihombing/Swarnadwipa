@@ -1,0 +1,217 @@
+@media(max-width : 1000px)
+{
+    .tentang-kami{
+        margin-top: 100px;
+    }
+    .sliders img{
+        margin-left: 220px;
+    }
+}
+@media (max-width: 450px){
+    header{
+        width: 100%;
+    }
+    .containe::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .sliders img {
+        margin-top: 50px;
+        width: 50%;
+        height: 55vh;
+        margin-left: 105px;
+    }
+    .logo-kiri img {
+        margin-left: 182px;
+        text-align: center;
+        margin-top: 4px;
+        width: 70px;
+    }
+    .logo-kiri h1 {
+        text-align: center;
+        margin-top: -4px;
+        float: right;
+        font-size: 24px;
+        cursor: pointer;
+        margin-right: 104px;
+        display: inline;
+    }   
+    .tentang-kami {
+        margin-top: -225px;
+    }
+    .tentang-kami h1 {
+        margin-top: 20px;
+        margin-left: -69px;
+        font-size: 40px;
+    }
+    .tentang-kami h2 {
+        margin-top: 0px;
+        margin-left: -70px;
+        font-size: 18px;
+    }
+    .tentang-kami p {
+        text-align: justify;
+        line-height: 25px;
+        margin-top: -10px;
+        margin-left: -69px;
+        font-size: 18px;
+    }
+    .artikel {
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 91%;
+        margin-right: 20px;
+        background-color: rgb(57, 57, 176);
+    }
+    .logo h2 {
+        font-size: 14px;
+        margin-top: 7px;
+        margin-left: 1px;
+    }
+    .visi h3, p {
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 0px;
+        margin-top: -17px;
+    }
+    .visi h2{
+        margin-left: 0px;
+    }
+    .nilai h3{
+        line-height: 15px;
+        font-size: 18px ;
+        margin-bottom: 20px;
+    }
+    .nilai p{
+        margin-left: 20px;
+        line-height: 30px;
+    }
+    .rinciankuliah h1 {
+        font-size: 32px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .rinciankuliah p {
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .faq{
+        margin-top: 120px;
+    }
+    .faq p{
+        text-align: justify;
+        margin-top: 10px;
+    }
+    button {
+        font-size: 15px;
+        color: black;
+        background-color: yellow;
+        padding: 20px 20px;
+        border-radius: 40px solid black;
+        margin-left: -69px;
+    }
+    .beasiswas h1 {
+        line-height: 67px;
+        margin-left: 12px;
+    }
+    .tulisan-kanan{
+        margin-left:-2px;
+        margin-top: -27px;
+    }
+    .tulisan-kanan h2{
+        margin-top: 28px;
+        margin-left: 4px;
+        font-size: 15px;
+    }
+    .tulisan-kanan  p{
+        margin-top: 5px;
+    }
+    .historys h1 {
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+    .historys h2 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .historys p {
+        text-align: justify;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .slider p {
+        color: white;
+        text-align: center;
+        margin-top: -30px;
+        margin-right: 0px;
+    }
+    .btn{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .btn label{
+        display: inline-block;
+        width: 80px;
+        height: 70px;
+        padding: 25px;
+    }
+    .btn label span{
+        display: block;
+        border-top: 3px solid black;
+        height: 10px;
+        width: 20px;
+    }
+    .btn label:hover, #check:checked ~ .btn label{
+        background-color: red;
+    }
+    .logo-kanan{
+        position: absolute;
+        display: block;
+        text-align: center;
+        width:100%;
+        background-color: rgba(0,0,0, 0.3);
+        top: 100px;
+        right: 0;
+        color: white;
+        overflow-y: hidden;
+    }
+    .logo-kanan a{
+        display: block;
+    }
+    #check:not(checked) ~.logo-kanan{
+        height: 0px;
+    }
+    #check:checked ~.logo-kanan{
+        color: white;
+        height: 75vh;
+        overflow-y: auto;
+    }
+    #check:checked ~.logo-kanan ul li{
+        color: white;
+        float: none;
+        margin-left: 200px;
+    }
+    #check:checked ~.logo-kanan ul li a{
+        color: white;
+    }
+    .logo-kanan .dropdown{
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .dropdown-content{
+        display: none;
+        padding: 10px 16px;
+        position: absolute;
+        min-width: 16px;
+        top: 100px;
+        background: rgba(0, 0, 0,.8);
+        z-index: 1;
+    }
+    .dropdown-content a{
+        top: 150px;
+    }
+}
